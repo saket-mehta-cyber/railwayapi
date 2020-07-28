@@ -43,6 +43,6 @@ request(options, function (error, response, body) {
 
 
 
-app.listen(process.env.PORT || 5000,function(){
+app.listen(process.env.PORT || 3000,function(){
 	console.log("Railway app started");
 })
