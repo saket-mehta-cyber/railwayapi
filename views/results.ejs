@@ -1,0 +1,9 @@
+<h1>
+	Results are!!
+</h1>
+
+<% data.forEach(function(train){  %>
+<li> <strong><%= train["name"] %> </strong> <span> - </span> <%= train["train_num"] %> </li>
+<%   })  %>
+
+<a href="/">Search again</a>
